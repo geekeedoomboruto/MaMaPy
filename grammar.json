@@ -1,0 +1,20 @@
+{
+    "affiche(": "print(",
+    "demande(": "input(",
+    "props": "__init__",
+    "//": "#",
+    "/*": "\"\"\"",
+    "*/":  "\"\"\"",
+    "commande ": "def ",
+    "definit ": "def ",
+    "renvoie ": "return ",
+    "fabrique ": "class ",
+    "sinon": "else",
+    "encore si": "elif",
+    "si": "if",
+    "est": "is",
+    "dans": "in",
+    "pour": "for",
+    "tant que": "while",
+    "lui": "self"
+}
