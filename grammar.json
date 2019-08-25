@@ -16,5 +16,7 @@
     "dans": "in",
     "pour": "for",
     "tant que": "while",
-    "lui": "self"
+    "lui": "self",
+    "Vrai": "True",
+    "Faux": "False"
 }

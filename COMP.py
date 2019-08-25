@@ -17,7 +17,7 @@ def isclass(string):
     return False
 def isloop(string):
     cond1 = "pour" in string or "tant que" in string or "while" in string or "for" in string
-    cond12 = (">=" in string or "<=" in string or "<" in string or ">" in string or "!=" in string or "==" in string or "est" in string or "dans" in string or "True" in string or "False" in string)
+    cond12 = (">=" in string or "<=" in string or "<" in string or ">" in string or "!=" in string or "==" in string or "est" in string or "dans" in string or "True" in string or "False" in string or "Vrai" in string or "Faux" in string)
     cond2 = ("in" in string or cond12) and cond1
     if cond2:
         return True
