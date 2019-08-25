@@ -14,6 +14,7 @@ Suppose that you have a file called looping.mmp, to execute it you write <code>p
 There is two steps for the execution of the program.
 - Translation
 - Interpretation
+# More precisely
 The Translation works with a file named COMP.py, it takes the code, translate the code in python line by line, and then reassemble them.
 Then Python interprets in with the exec() function.
 Be sure to have a sanitised environnment because my code uses exec() and eval() <code>exec.py</code> knows how to execute python code (in MaMaPy you are not obligated to write MaMaPy code).
